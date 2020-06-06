@@ -1,0 +1,344 @@
+/*GENERAL*/
+body {
+    font-family: "Roboto Slab", serif;
+}
+
+.container {
+    width: 940px;
+    margin: auto;
+}
+
+.section-title {
+    text-decoration: underline;
+    font-size: 2em;
+    text-align: center;
+}
+
+.about-us, .newsletters,
+.contato {
+  padding: 3em 0 6em 0;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+/*OWN STYLE*/
+
+.logo {
+    height: 60px;
+    margin-top: 12px;
+}
+
+header {
+    border-top: 5px solid #90a35f;
+    background: rgba(30, 44, 53, 0.8);
+    height: 90px;
+    width: 100%;
+    position: absolute;
+}
+
+header .container {
+    position: relative;
+}
+
+.menu {
+    position: absolute;
+    right: 0;
+    top: -.5em;
+    font-size: 1em;
+    font-weight: 500;
+    cursor: pointer;
+    top: 1em;
+}
+
+.menu ul {
+  padding-left: 0;
+  
+}
+
+.menu li {
+    display: inline;
+    width: 5em;
+    text-transform: capitalize;
+    margin-left: 0.9em;
+}
+  
+.menu a {
+    color: white;
+    text-decoration: none; 
+    
+}
+
+.menu a:hover {
+    text-decoration: underline;
+    color: #90a35f;
+    transition: 0.5s;
+    font-size: 1.3em;    
+}
+
+.menu-footer a:hover {
+  color: #90a35f;
+}
+/*MAIN-HEADER*/
+
+.main-header {
+    background: url('https://images.pexels.com/photos/3987066/pexels-photo-3987066.jpeg') center bottom repeat-x;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: white;
+    height: 330px;
+    padding-top: 10em;
+}
+
+.main-header p {
+    width: 30em;
+}
+
+.main-header p:first-child {
+    width: 30em;
+    font-size: 1.3em;
+    line-height: 1.1;
+}
+
+.main-header p:first-child:first-line {
+    font-size: 2.2em;
+    font-weight: bold;
+}
+
+.main-header button {
+    margin-top: 1em;
+    background-color: #90a35f;
+    border: 0;
+    padding: .6em;
+    font-size: 1.2em;
+    -webkit-border-radius: 0.3em;
+    border-radius: 0.3em;
+    box-shadow: 0 2px 6.65px 0.35px #647537;
+    font-weight: bold;
+}
+
+
+/*BODY */
+
+.about-us {
+  background: #ebebeb;
+}
+
+.two-columns {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  columns: 1;
+}
+
+.two-columns h3 {
+  margin: 0;
+}
+
+.about-us p {
+  font: .9em/1.8 sans-serif;
+  text-align: justify;
+}
+
+.about-us p:first-child {
+  margin-bottom: 3em;
+}
+
+/*NEWSLETTER */
+
+.newsletters {
+  background: linear-gradient(to bottom, #708090, #1e2c35);
+}
+
+.newsletters h2 {
+  color: #fff;
+}
+
+.news {
+  background: white;
+  width: 18em;
+  display: inline-block;
+  margin: 1em 0 0 1.4em;
+  padding-bottom: 2em;  
+} 
+
+.news:hover {
+  background: #dedede;
+}
+
+.news h3 {
+  color: #fff;
+  font-size: 1.4em;
+  background: #90a35f;
+  text-align: center;
+  height: 2em;
+  padding-top: .6em;
+  margin-top: 0;
+}
+
+.news div {
+  text-align: center;
+  color: #90a35f;
+  font-size: 2.75em;
+}
+
+.news a {
+  text-decoration: none;
+  color: white;
+}
+
+.item {
+  padding-left: 1.2em;
+}
+
+.item li {
+  font-size: 1em;
+  list-style: none;
+  border-bottom: 1px solid #acacac;
+  padding: .5em;
+  width: 14.8em;
+}
+
+.item li:last-child {
+  border: 0;
+}
+
+/*VACANCY*/
+
+.vacancy {
+  background: linear-gradient(to top,#708090, #1e2c35)  ;  
+}
+
+h2 .color {
+  color: #90a35f;
+}
+
+.container-vacancy {
+  align-items: baseline;
+  align-content: stretch;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding-bottom: 3em;  
+}
+
+.vacancy h2 {
+  color: #fff;
+}
+
+.vacancy-description {
+  background: white;
+  margin: 0.9em 0 0 2.5em;
+  padding-bottom: 0.5em; 
+  cursor: pointer;
+}
+
+.vacancy-description:hover {
+  background: #dedede;
+}
+
+.vacancy-description h3 {
+  color: #fff;
+  font-size: 1.1em;
+  background: #90a35f;
+  text-align: center;
+  height: 1.4em;
+  padding-top: .2em;
+  margin-top: 0;
+}
+
+.vacancy-description div {
+  text-align:left;
+  color: #90a35f;
+  font-size: 1em;
+  padding-left: 1.2em;
+}
+
+.list-description {
+  padding-left: 1.2em;
+}
+
+.list-description li {
+  font-size: 0.8em;
+  list-style: none;
+  border-bottom: 1px solid #acacac;
+  padding: .5em;
+  width: 24.8em;
+}
+
+.list-description li:last-child {
+  border: 0;
+}
+
+.location {
+  font-size: 0.8em;
+  
+}
+
+/*CONTATO */
+
+.contato{
+
+
+}
+.contato input,
+.contato button {
+  display: block;
+}
+
+form {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.contato input,
+textarea {
+  width: 100%;
+  margin-bottom: .8em;
+  padding: 4px 8px;
+  -webkit-border-radius: 0.3em;
+  border-radius: 0.3em;
+  border: 2px solid #ccc;
+}
+
+.contato button {
+  margin: 0 auto;
+  background: #90a35f;
+  border: 0;
+  color: #fff;
+  width: 210px;
+  height: 38px;
+  font-size: 1.2em;
+  -webkit-border-radius: 0.3em;
+  border-radius: 0.3em;
+  box-shadow: 0 2px 6.65px 0.35px #647537;
+}
+
+/** First-Footer **/
+
+footer {
+  border-bottom: 5px solid #90a35f;
+  background: rgba(30, 44, 53);
+  display: block;
+  position: relative;
+}
+
+footer .container {
+  padding-top: 3em;
+  height: 1em;
+  position: relative;
+}
+
+
+
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.copyright {
+  color:#90a35f; 
+  text-align: center;
+}
